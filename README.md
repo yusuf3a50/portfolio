@@ -9,3 +9,4 @@ howtos followed in setting up this site:
 3. https://isotropic.co/react-multiple-pages/
 
 [github pages with react app](https://github.com/gitname/react-gh-pages)
+https://create-react-app.dev/docs/adding-images-fonts-and-files/
