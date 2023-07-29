@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Qualifications() {
     return (
         <>
-            <table>
+            <table align="centre">
                 <thead>
                     <tr>
                         <th>Resource</th>
