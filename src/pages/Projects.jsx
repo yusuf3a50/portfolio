@@ -3,8 +3,7 @@ import React from 'react';
 function Projects() {
     return (
         <>
-        
-            <h1>this is the projects page</h1>
+            <h1>Projects:</h1>
             <p>github</p>
             
             <a href ="https://github.com/yusuf3a50/yusuf3a50.github.io/" target="_blank" rel="noopener noreferrer">here</a>
@@ -17,7 +16,6 @@ function Projects() {
             <p>codepen</p>
             I have a few more repos on my codepen profile 
             <a href="https://codepen.io/yusuf3a50/" target="_blank" rel="noopener noreferrer">here</a>
-        
         </>
     );
 }

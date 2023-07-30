@@ -40,7 +40,7 @@ export default
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="Contact" element={<Contact />} />
           <Route path="ELearningResources" element={<ELearningResources />} />
           <Route path="ProfessionalExperience" element={<ProfessionalExperience />} />
           <Route path="Projects" element={<Projects />} />

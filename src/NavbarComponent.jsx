@@ -1,5 +1,5 @@
 import React from "react";
-//import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 //react-bootstrap Navbar:
 import Container from 'react-bootstrap/Container';
@@ -8,52 +8,58 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/main.css';
 
 function NavbarComponent() {
   return (
     <>
-      {['sm'].map((expand) => (
-          <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
-            <Container fluid>
-              <Navbar.Brand href="#">Yusuf's Portfolio</Navbar.Brand>
-              <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-              <Navbar.Offcanvas
-                id={`offcanvasNavbar-expand-${expand}`}
-                aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-                placement="end"
-              >
-                <Offcanvas.Header closeButton>
-                  <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                    Offcanvas
-                  </Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                  <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/Projects">Projects</Nav.Link>
-                    <Nav.Link href="/Contact">Contact</Nav.Link>
-                    <Nav.Link href="/ProfessionalExperience">Professional Experience</Nav.Link>
-                    <Nav.Link href="/Qualifications">Qualifications</Nav.Link>
+      {['md'].map((expand) => (
+        <Navbar key={expand} expand={expand} className="mb-3 navbar-dark">
+          <Container fluid>
+            <Navbar.Brand href="#" className="navLink">Yusuf's Portfolio</Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  Yusuf's Portfolio
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body >
 
-                    <NavDropdown
-                      title="e-Learning Resources"
-                      id={`offcanvasNavbarDropdown-expand-${expand}`}
-                    >
-                      <NavDropdown.Item href="/ELearningResources">HTML / CSS</NavDropdown.Item>
-                      <NavDropdown.Item href="/ELearningResources">
-                        JavaScript
-                      </NavDropdown.Item>
+                <Nav className="container-fluid" variant="underline" defaultActiveKey="/" >
+                  <Nav.Item className="ms-auto">
+                    <Nav.Link href="/">Home</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item className="ms-auto">
+                    <Nav.Link eventKey="/Projects" as={Link} to="/Projects">Projects</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item className="ms-auto">
+                    <Nav.Link eventKey="Contact" as={Link} to="/Contact">Contact</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item className="ms-auto">
+                    <Nav.Link eventKey="/ProfessionalExperience" as={Link} to="/ProfessionalExperience">Professional Experience</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item className="ms-auto">
+                    <Nav.Link eventKey="Qualifications" as={Link} to="/Qualifications">Qualifications</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item className="ms-auto">
+                    <NavDropdown title="e-Learning Resources">
+                      <NavDropdown.Item eventKey="/ELearningResources" as={Link} to="/ELearningResources">HTML / CSS</NavDropdown.Item>
+                      <NavDropdown.Item eventKey="/ELearningResources" as={Link} to="/ELearningResources">JavaScript</NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="/ELearningResources">
-                        React
-                      </NavDropdown.Item>
+                      <NavDropdown.Item eventKey="/ELearningResources" as={Link} to="/ELearningResources">React</NavDropdown.Item>
                     </NavDropdown>
-                  </Nav>
-                  
-                </Offcanvas.Body>
-              </Navbar.Offcanvas>
-            </Container>
-          </Navbar>
+                  </Nav.Item>
+                </Nav>
+
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
       ))}
     </>
   );

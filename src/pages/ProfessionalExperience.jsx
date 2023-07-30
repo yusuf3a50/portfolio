@@ -3,7 +3,7 @@ import React from 'react';
 function ProfessionalExperience() {
     return (
         <>
-        <h1>this is the ProfessionalExperience page (as of date)</h1>
+        <h1>Professional Experience (as of 2023):</h1>
         <p>current</p>
         <p>previous</p>
         </>

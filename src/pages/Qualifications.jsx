@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../css/main.css';
 
 function Qualifications() {
     return (
         <>
-            <table align="centre">
+        <h1>Qualifications</h1>
+            <table className='centredTable'>
                 <thead>
                     <tr>
                         <th>Resource</th>
