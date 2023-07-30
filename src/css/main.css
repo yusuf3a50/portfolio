@@ -9,3 +9,7 @@ body {
 .centredTable {
     margin: auto;
 }
+
+a {
+  color: rgb(198, 118, 206);
+}

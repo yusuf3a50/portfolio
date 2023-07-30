@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../css/main.css';
+import intro2WebDevCert from '../imgs/CFG_introduction_to_web_dev_cert.pdf'
+import nanoDegreeCert from '../imgs/CFG_nanodegree_Certificate.pdf'
 
 function Qualifications() {
     return (
@@ -32,11 +33,10 @@ function Qualifications() {
                         <td><a href="https://codefirstgirls.org.uk/courses/nanodegree/"
                                 target="_blank" rel="noopener noreferrer">Nano Degree: Full stack developer</a></td>
                         <td>
-                            <Link to = './CFG_nanodegree_Certificate.pdf'>Complete</Link>
-                            {/* <a href="./CFG_nanodegree_Certificate.pdf" class="image fit"
+                            <a href={nanoDegreeCert} class="image fit"
                                 alt="certificate for CFG nanodegree course"
                                 type="application/pdf" target="_blank" rel="noopener noreferrer">
-                                Complete</a> */}
+                                Complete</a>
                         </td>
                     </tr>
                     <tr>
@@ -47,7 +47,7 @@ function Qualifications() {
                         <td>Introduction to Web Development
                         </td>
                         <td>
-                            <a href="./CFG introduction to web dev cert.pdf" class="image fit"
+                            <a href={intro2WebDevCert} class="image fit"
                                 alt="certificate for CFG course in introduction to web development"
                                 type="application/pdf" target="_blank" rel="noopener noreferrer">
                                 Complete</a>
