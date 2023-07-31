@@ -10,9 +10,9 @@ const Layout = () => {
     return (
         <>
             <Container fluid>
-            <NavbarComponent />
-            <Outlet />
-            <Footer />
+                <NavbarComponent />
+                <Outlet />
+                <Footer />
             </Container>
         </>
     );

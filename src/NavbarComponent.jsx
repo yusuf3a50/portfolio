@@ -14,7 +14,6 @@ function NavbarComponent() {
     <>
       {['md'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3 navbar-dark">
-          {/* <Container fluid> */}
             <Navbar.Brand href="#" className="navLink">Yusuf's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -57,7 +56,6 @@ function NavbarComponent() {
 
               </Offcanvas.Body>
             </Navbar.Offcanvas>
-          {/* </Container> */}
         </Navbar>
       ))}
     </>

@@ -1,6 +1,35 @@
 .footer {
+
+    /* display: flex; */
+    /* position: absolute; */
+
+    bottom: 0;
+    margin-top: 10%;
+    /* justify-content: space-evenly; */
+    /* gap: 20%;
+    font-size: 190%; */
+}
+
+/* .box {
+    display: flex;
     position: absolute;
     left: 0;
     bottom: 0;
     right: 0;
-}
+} */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .grid-item-icons {
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item-hosting {
+    grid-column: 1 / 4;
+    font-size: 15px;
+    text-align: center;
+  } 
