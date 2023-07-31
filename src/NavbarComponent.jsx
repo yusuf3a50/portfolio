@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 //react-bootstrap Navbar:
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -15,7 +14,7 @@ function NavbarComponent() {
     <>
       {['md'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3 navbar-dark">
-          <Container fluid>
+          {/* <Container fluid> */}
             <Navbar.Brand href="#" className="navLink">Yusuf's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -58,7 +57,7 @@ function NavbarComponent() {
 
               </Offcanvas.Body>
             </Navbar.Offcanvas>
-          </Container>
+          {/* </Container> */}
         </Navbar>
       ))}
     </>

@@ -17,6 +17,7 @@ function Projects() {
             <p>
             I have a few more repos on my codepen profile <a href="https://codepen.io/yusuf3a50/" target="_blank" rel="noopener noreferrer">here</a>
             </p>
+            <p>list the weather app and green-air app too</p>
         </>
     );
 }
