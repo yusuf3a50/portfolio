@@ -20,7 +20,13 @@ function Footer() {
                         <a href="https://codepen.io/yusuf3a50/" target="_blank" rel="noopener noreferrer"><FaCodepen /></a>
                     </div>
                     <div class="grid-item-hosting">
-                        <p>This website is hosted on an <FaAws /> EC2 <SiAmazonec2 /> instance</p>
+                        <p>This website is hosted for free on my <FaAws /> T3-micro <SiAmazonec2 /> instance</p>
+                        <p>(see the SSL certificate or the <a
+                            href="https://load-balancer-hacknernoon-756014597.eu-north-1.elb.amazonaws.com/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            >address of the load balancer</a> I setup for this site.)
+                        </p>
                     </div>
                 </div>
             </div>

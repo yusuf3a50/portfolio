@@ -26,7 +26,7 @@ function Projects() {
                     <tr>
                         <td>Weather Selector App</td>
                         <td>Group project: Select your weather forecast!</td>
-                        <td><a href="https://yusuf3a50.github.io/weatherApp/" target="_blank" rel="noopener noreferrer"></a>Github Pages</td>
+                        <td><a href="https://yusuf3a50.github.io/weatherApp/" target="_blank" rel="noopener noreferrer">Github Pages</a></td>
                         <td><a href="https://github.com/yusuf3a50/weatherApp" target="_blank" rel="noopener noreferrer"><BsGithub /></a></td>
                     </tr>
                     <tr>
@@ -52,6 +52,8 @@ function Projects() {
                         <td>The repository for this website</td>
                         <td><a href="https://yusuf3a50.netlify.app/" target="_blank" rel="noopener noreferrer">Netlify</a></td>
                         <td><a href="https://github.com/yusuf3a50/portfolio/" target="_blank" rel="noopener noreferrer"><BsGithub /></a></td>
+                       
+                    
                     </tr>
                 </tbody>
             </table>

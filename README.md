@@ -10,6 +10,10 @@ howtos followed in setting up this site:
 4. https://isotropic.co/react-multiple-pages/
 5. https://react-bootstrap.netlify.app/docs/components/navbar
 6. https://codepen.io/geoffgraham/pen/jrWwWM?editors=1100
+7. https://medium.com/@nutanbhogendrasharma/design-page-layout-and-styling-in-react-application-part-3-448d70263f70
 
 [github pages with react app](https://github.com/gitname/react-gh-pages)
 https://create-react-app.dev/docs/adding-images-fonts-and-files/
+
+
+to allow `npm run build` [allocate more swap space to t3-micro instance](https://stackoverflow.com/questions/17173972/how-do-you-add-swap-to-an-ec2-instance)

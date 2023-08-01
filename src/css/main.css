@@ -14,6 +14,10 @@ a {
   color: rgb(198, 118, 206);
 }
 
+a:hover {
+  color:white;
+}
+
 .selfie {
   border-radius: 50%;
   max-width: 20%;
