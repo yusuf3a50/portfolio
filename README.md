@@ -17,3 +17,5 @@ https://create-react-app.dev/docs/adding-images-fonts-and-files/
 
 
 to allow `npm run build` [allocate more swap space to t3-micro instance](https://stackoverflow.com/questions/17173972/how-do-you-add-swap-to-an-ec2-instance)
+then increase the amount of memory node uses by:
+`export NODE_OPTIONS=--max-old-space-size=8192`
