@@ -25,7 +25,7 @@ function Footer() {
                             href="https://load-balancer-hacknernoon-756014597.eu-north-1.elb.amazonaws.com/" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            >address of the load balancer</a> I setup for this site.)
+                            >address of the load balancer</a> I setup for this site)
                         </p>
                     </div>
                 </div>

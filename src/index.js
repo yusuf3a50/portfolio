@@ -34,7 +34,7 @@ import Qualifications from "./pages/Qualifications";
 import NoPage from "./pages/NoPage";
 export default
 
-  function App() {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
