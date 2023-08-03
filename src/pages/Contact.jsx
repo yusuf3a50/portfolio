@@ -10,7 +10,7 @@ function Contact() {
             <p>
                 <a href="https://linkedin.com/in/yusuf3a50/" target="_blank" rel="noopener noreferrer">
                     My linked<BsLinkedin /> profile can be found here</a></p>
-            <p>Email:<img src={email} alt="image of email address text" /></p>
+            <p>Email:<img src={email} alt="text of email address to reduce spamming from webscrapes" /></p>
         </>
     );
 }
