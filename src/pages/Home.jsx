@@ -12,10 +12,9 @@ function Home() {
             </div>
             </div>
 
-            <h1>I'm Yusuf and I'm a full stack developer</h1 >
-
-            {/* <p>here is a link to my CV</p> */}
+            <h1>Yusuf</h1 >
             <img src={selfie} alt="selfie" className='selfie' />
+            <h1>Full Stack Developer</h1>
         </>
     );
 }

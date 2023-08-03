@@ -16,6 +16,7 @@
         typing 3s steps(30, end),           /* speed at which the text is typed*/
         blink-caret .5s step-end infinite;
     animation-iteration-count: infinite;    /* loop the animation inifintely*/
+    font-size: 1em;
 }
 
 /* The typing effect */
