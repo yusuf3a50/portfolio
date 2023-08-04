@@ -1,17 +1,9 @@
-/* GLOBAL STYLES */
-.container-flex {
-    text-align: centre;
-    margin-left: 6em;
-  }
-
-/* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
     color: #fff;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid rgb(198, 118, 206); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0, 50%; /* Gives that scrolling effect as the typing happens */
-    /* letter-spacing: .15em; Adjust as needed */
     animation: 
         typing 3s steps(30, end),           /* speed at which the text is typed*/
         blink-caret .5s step-end infinite;
@@ -31,3 +23,29 @@
     50% { border-color: rgb(198, 118, 206) }
 }
 
+/* Keep the typewriter effect responsively centred:  */
+
+/* mobile */
+@media only screen and (max-width: 759px) {
+    .container-flex {margin-left: 0px;}
+}
+
+/* desktop 1 */
+@media only screen and (min-width: 760px) {
+    .container-flex {margin-left: 200px;}
+}
+
+/* desktop 2 */
+@media only screen and (min-width: 860px) {
+    .container-flex {margin-left: 250px;}
+}
+
+/* desktop 3 */
+@media only screen and (min-width: 960px) {
+    .container-flex {margin-left: 300px;}
+}
+
+/* desktop 4 */
+@media only screen and (min-width: 1060px) {
+    .container-flex {margin-left: 350px;}
+}
